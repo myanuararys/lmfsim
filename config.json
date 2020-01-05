@@ -1,0 +1,26 @@
+{
+	"n_nodes":500,
+	"max_latency":20,
+	"consensus":"LMF",
+	"sim_time":1100,
+	"mean_tx_generation":10,
+	"sd_tx_generation":0.1,
+	"mean_tx_gas":30000,
+	"sd_tx_gas":1000,
+	"mean_tx_size":20,
+	"sd_tx_size":2,
+	"load_csv":0,
+	"block_gas_limit":5000000,
+	"block_verify_time":2,
+	"mining_time":100,
+	"POW":{
+		"miner_number":10
+	},
+	"POA":{
+		"mining_time":100,		
+		"sealer_number":10
+	},
+	"LMF":{
+		"bd_number":10
+	}
+}
